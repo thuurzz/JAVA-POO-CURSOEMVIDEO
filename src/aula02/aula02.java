@@ -9,12 +9,14 @@ public class aula02 {
         c1.modelo = "BIC";
         c1.cor = "Azul";
         c1.ponta = 05.f;
-        c1.tampada = true;
+        c1.tampada = false;
 
         // Chama o métodos que mostra status do objeto
         c1.status();
         // Chama método rabiscar
         c1.rabiscar();
+        // Chame método tampar caneta
+        c1.tampar();
 
 
         // Novo objeto
@@ -28,5 +30,4 @@ public class aula02 {
         c2.rabiscar();
 
     }
-
 }
