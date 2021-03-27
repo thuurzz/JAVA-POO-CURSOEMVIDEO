@@ -19,7 +19,7 @@ public class Caneta {
         if (this.tampada){
             System.out.println("Caneta " + this.modelo + " tampada, não pode rabiscar...");
         } else {
-            System.out.println("Rabiscando...");
+            System.out.println( this.modelo + " está rabiscando...");
         }
 
     }

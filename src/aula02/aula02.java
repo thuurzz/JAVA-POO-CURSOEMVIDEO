@@ -18,7 +18,6 @@ public class aula02 {
         // Chame método tampar caneta
         c1.tampar();
 
-
         // Novo objeto
         Caneta c2 = new Caneta();
         c2.modelo = "Hostnet";
@@ -28,6 +27,5 @@ public class aula02 {
         c2.status();
         c2.destampar();
         c2.rabiscar();
-
     }
 }
