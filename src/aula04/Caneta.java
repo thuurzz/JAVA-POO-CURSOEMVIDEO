@@ -6,11 +6,13 @@ public class Caneta {
     private boolean tampada;
     private String cor;
 
-    public Caneta(){ // Metodo construtor
+    // Metodo construtor
+    public Caneta(){
         this.tampar();
         this.setCor("Azul");
     }
 
+    // Construtor com parametros (Sobrecarga)
     public Caneta(String m, String c, Float p){
         this.setModelo(m);
         this.setPonta(p);
