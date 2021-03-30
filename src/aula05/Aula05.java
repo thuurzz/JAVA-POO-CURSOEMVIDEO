@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Aula05 {
     public static void main(String[] args) {
-        // Instância do Scanner
-        Scanner input = new Scanner(System.in);
-
         // Cria conta Arthur
         BankAccount p1 = new BankAccount();
         p1.setNumConta(1111);
@@ -24,13 +21,5 @@ public class Aula05 {
         p2.depositar(500.);
         p2.sacar(1000.0);
 
-        /*
-        // Perguntar tipo de conta
-        System.out.println("Olá, qual tipo de conta deseja abrir? [CC - Conta Corrente/CP - Conta Poupança]");
-        String tipo;
-        do {
-            tipo = input.nextLine().toLowerCase();
-        } while (!tipo.equals("cc") && !tipo.equals("cp"));
-        */
     }
 }
