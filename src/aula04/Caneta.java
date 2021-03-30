@@ -16,7 +16,6 @@ public class Caneta {
         this.setPonta(p);
         this.setCor(c);
         this.tampar();
-
     }
 
     public float getPonta() {
